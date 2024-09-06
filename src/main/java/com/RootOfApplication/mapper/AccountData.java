@@ -10,14 +10,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+
 public class AccountData {
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	private long accountNumber;
 	private String accountHolderName;
